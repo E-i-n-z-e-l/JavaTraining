@@ -6,6 +6,9 @@ public class MainAnimals {
         Animals dog = new Dog("Sharika");
 
         cat.makeSound();
+        cat.move();
+
         dog.makeSound();
+        dog.move();
     }
 }

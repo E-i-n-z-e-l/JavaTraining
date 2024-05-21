@@ -20,4 +20,8 @@ public abstract class Animals {
     }
 
     public abstract void makeSound(); // Создаем абстрактный метод, который потом сможем переопределить в классах наследниках;
+
+    public int move() { // Базовый метод движения животного.
+        return 1;
+    };
 }

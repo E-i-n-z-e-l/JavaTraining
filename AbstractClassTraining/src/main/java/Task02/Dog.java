@@ -11,4 +11,8 @@ public class Dog extends Animals{
     public void makeSound() {
         System.out.println("Гав-Гав");
     };
+    @Override
+    public int move() {
+        return 7;
+    }
 }
