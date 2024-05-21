@@ -1,3 +1,5 @@
+package Task01;
+
 public class Student extends Person{
     private String major;
     public Student(String major, String name) {
