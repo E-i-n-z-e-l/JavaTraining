@@ -16,7 +16,7 @@ package Task001;
 public class Solution001 {
     public static void main(String[] args) {
         String[] strs_1 = new String[] {"flower","flow","flight"};
-        String[] strs_2 = new String[] {"cedog","racecar","carce"};
+        String[] strs_2 = new String[] {"dog","racecar","car"};
         String[] strs_3 = new String[] {"абаабабаба","ааба","аабапе"};
 
         System.out.println(searchString(strs_1));
