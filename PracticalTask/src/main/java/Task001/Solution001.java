@@ -72,7 +72,6 @@ public class Solution001 {
                 }
             }
         }
-
         return prefix;
     }
 }
