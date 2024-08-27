@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/AbstractClassTraining/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/AbstractClassTraining/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ClassEnum/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ClassEnum/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/InterfaceComparator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/InterfaceComparator/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/InterfaceJava/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/InterfaceJava/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LambdaExpressions_inJava/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/LambdaExpressions_inJava/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PracticalTask/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/PracticalTask/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TreatmentExceptions_InJava/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/TreatmentExceptions_InJava/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_08_Protokolirovaniye/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_08_Protokolirovaniye/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

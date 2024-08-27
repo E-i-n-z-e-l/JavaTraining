@@ -1,0 +1,11 @@
+авг. 28, 2024 3:48:18 AM MyClassTwo main
+INFO: Информационное сообщение
+авг. 28, 2024 3:48:18 AM MyClassTwo main
+WARNING: Предупреждающее сообщение
+авг. 28, 2024 3:48:18 AM MyClassTwo main
+SEVERE: Сообщение об ошибке
+авг. 28, 2024 3:48:18 AM MyClassTwo main
+SEVERE: Ошибка при выполнении
+java.lang.Exception: Пример исключения
+	at MyClassTwo.main(MyClassTwo.java:29)
+

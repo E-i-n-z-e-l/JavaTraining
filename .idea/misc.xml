@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/ClassEnum/pom.xml" />
+        <option value="$PROJECT_DIR$/InterfaceJava/pom.xml" />
+        <option value="$PROJECT_DIR$/PracticalTask/pom.xml" />
+        <option value="$PROJECT_DIR$/InterfaceComparator/pom.xml" />
+        <option value="$PROJECT_DIR$/AbstractClassTraining/pom.xml" />
+        <option value="$PROJECT_DIR$/LambdaExpressions_inJava/pom.xml" />
+        <option value="$PROJECT_DIR$/TreatmentExceptions_InJava/pom.xml" />
+        <option value="$PROJECT_DIR$/_08_Protokolirovaniye/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
