@@ -13,6 +13,7 @@
         <module name="PracticalTask" />
         <module name="LambdaExpressions_inJava" />
         <module name="AbstractClassTraining" />
+        <module name="_09_Generics" />
         <module name="ClassEnum" />
       </profile>
     </annotationProcessing>
