@@ -9,12 +9,14 @@
         <module name="TreatmentExceptions_InJava" />
         <module name="InterfaceComparator" />
         <module name="_08_Protokolirovaniye" />
+        <module name="_11_Map_in_Java" />
         <module name="InterfaceJava" />
         <module name="PracticalTask" />
         <module name="LambdaExpressions_inJava" />
         <module name="AbstractClassTraining" />
         <module name="_09_Generics" />
         <module name="ClassEnum" />
+        <module name="_10_Set_in_Java" />
       </profile>
     </annotationProcessing>
   </component>
