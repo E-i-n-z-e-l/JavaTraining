@@ -2,6 +2,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
+ * Set в Java. <p>
  * Основные реализации Set.
  * <p>
  * HashSet:
