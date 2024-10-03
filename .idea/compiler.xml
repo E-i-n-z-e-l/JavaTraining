@@ -13,6 +13,7 @@
         <module name="InterfaceJava" />
         <module name="PracticalTask" />
         <module name="LambdaExpressions_inJava" />
+        <module name="_12_Stream_in_Java" />
         <module name="AbstractClassTraining" />
         <module name="_09_Generics" />
         <module name="ClassEnum" />
