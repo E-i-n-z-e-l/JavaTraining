@@ -17,7 +17,14 @@
         <option value="$PROJECT_DIR$/_11_Map_in_Java/pom.xml" />
         <option value="$PROJECT_DIR$/_12_Stream_in_Java/pom.xml" />
         <option value="$PROJECT_DIR$/_13_Stack_in_Java/pom.xml" />
+        <option value="$PROJECT_DIR$/MeSQL_in_Java/pom.xml" />
+        <option value="$PROJECT_DIR$/_14_MySQL_in_Java/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/MeSQL_in_Java/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="corretto-17" project-jdk-type="JavaSDK">

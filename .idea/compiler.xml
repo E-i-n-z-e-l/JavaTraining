@@ -18,8 +18,12 @@
         <module name="_08_Protokolirovaniye" />
         <module name="PracticalTask" />
         <module name="LambdaExpressions_inJava" />
+        <module name="_14_MySQL_in_Java" />
         <module name="_09_Generics" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MeSQL_in_Java" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

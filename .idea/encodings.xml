@@ -11,6 +11,8 @@
     <file url="file://$PROJECT_DIR$/InterfaceJava/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LambdaExpressions_inJava/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/LambdaExpressions_inJava/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MeSQL_in_Java/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MeSQL_in_Java/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PracticalTask/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/PracticalTask/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/TreatmentExceptions_InJava/src/main/java" charset="UTF-8" />
@@ -27,5 +29,7 @@
     <file url="file://$PROJECT_DIR$/_12_Stream_in_Java/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_13_Stack_in_Java/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_13_Stack_in_Java/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_14_MySQL_in_Java/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_14_MySQL_in_Java/src/main/resources" charset="UTF-8" />
   </component>
 </project>
