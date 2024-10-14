@@ -19,21 +19,9 @@ public class Main {
             conn = DriverManager.getConnection(url, user, password);
             System.out.println("Подключение успешно!");
 
-            // Создание объекта Statement для выполнения запросов
-            stmt = conn.createStatement();
-            String sql = "SELECT * FROM users";
-            ResultSet rs = stmt.executeQuery(sql);
+            // Вызов метода для отображения информации
+            displayEmployees(conn);
 
-            // Обработка результатов
-            while (rs.next()) {
-                int id = rs.getInt("id");
-                String name = rs.getString("name");
-                String email = rs.getString("email");
-                System.out.println("ID: " + id + ", Name: " + name + ", Email: " + email);
-            }
-
-            // Закрытие ResultSet
-            rs.close();
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {
@@ -41,6 +29,39 @@ public class Main {
                 // Закрытие ресурсов
                 if (stmt != null) stmt.close();
                 if (conn != null) conn.close();
+            } catch (SQLException se) {
+                se.printStackTrace();
+            }
+        }
+    }
+
+    // Метод для отображения данных сотрудников
+    public static void displayEmployees(Connection conn) {
+        Statement stmt = null;
+        ResultSet rs = null;
+
+        try {
+            // Создание объекта Statement для выполнения запросов
+            stmt = conn.createStatement();
+            String sql = "SELECT * FROM employee";
+            rs = stmt.executeQuery(sql);
+
+            // Обработка результатов
+            while (rs.next()) {
+                int id = rs.getInt("id");
+                String name = rs.getString("name");
+                String secondName = rs.getString("secondName");
+                String lastName = rs.getString("lastName");
+                System.out.println("ID: " + id + ", Name: " + name + ", SecondName: " + secondName + ", LastName: " + lastName);
+            }
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                // Закрытие ResultSet и Statement
+                if (rs != null) rs.close();
+                if (stmt != null) stmt.close();
             } catch (SQLException se) {
                 se.printStackTrace();
             }
