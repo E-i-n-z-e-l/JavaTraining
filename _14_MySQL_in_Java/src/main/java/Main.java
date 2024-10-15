@@ -7,7 +7,7 @@ public class Main {
         String user = "root";                                 // Имя пользователя базы данных;
         String password = "__1q2w3e4r5t6y7u8i9o__";           // Пароль пользователя от базы данных;
 
-        Connection conn = null; // Переменная соединения. При создании отсутствует;
+        Connection conn = null; // Переменная соединения. При создании отсутствует(пуста);
         Statement stmt = null;  //
 
         // Используем try-catch для поимки возможной ошибки;
