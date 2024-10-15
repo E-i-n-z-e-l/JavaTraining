@@ -18,7 +18,7 @@ public class Main {
             // addEmployee(conn, "Иван", "Иванович", "Иванов"); // Добавляем сотрудника;
             displayEmployees(conn); // Вызов метода для отображения информации;
             // deleteEmployee(conn, 5); // Удаляем добавленного сотрудника;
-            updateEmployee(conn, 6, "Георгий", "Георгиевич", "Георгиев"); // Изменяем данный сотрудника;
+            updateEmployee(conn, 6, "Георгий", "Георгиевич", "Георгиев"); // Изменяем данные сотрудника;
             displayEmployees(conn);
 
         } catch (SQLException e) {
