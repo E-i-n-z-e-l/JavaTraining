@@ -1,4 +1,4 @@
-package Task03;
+package Task003;
 
 /**
  * Длина последнего слова. <p>
