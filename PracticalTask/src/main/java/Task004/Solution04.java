@@ -1,4 +1,4 @@
-package Task04;
+package Task004;
 
 /**
  * Вам дан массив цен prices, где prices[i] — это цена данной акции в i-й день. <p>
