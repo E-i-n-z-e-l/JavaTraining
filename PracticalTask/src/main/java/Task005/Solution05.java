@@ -4,7 +4,7 @@ package Task005;
  * Даны две строки: needle и haystack. Верните индекс первого вхождения needle в haystack, или -1,
  * если needle не является частью haystack.
  */
-public class Solution05 {
+public class Solution005 {
     public static void main(String[] args) {
         String haystack01 = "sadbutsad";
         String needle01 = "sad";
