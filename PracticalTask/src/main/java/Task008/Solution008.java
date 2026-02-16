@@ -24,7 +24,7 @@ public class Solution008 {
         int secondNumber = inputValues[1];
 
         System.out.println(firstNumber * secondNumber);
-
+        scanner.close();
     }
 
     /**
