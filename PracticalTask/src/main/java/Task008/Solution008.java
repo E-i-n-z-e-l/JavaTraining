@@ -18,6 +18,13 @@ public class Solution008 {
 
         Scanner scanner = new Scanner(System.in);  // Создаем Scanner для ввода из консоли;
 
+        int[] inputValues =readTwoIntsInteractive(scanner);
+
+        int firstNumber  = inputValues[0];
+        int secondNumber = inputValues[1];
+
+        System.out.println(firstNumber * secondNumber);
+
     }
 
     /**
@@ -26,6 +33,7 @@ public class Solution008 {
      * @return
      */
     public static int[] readInput(Scanner scanner) {
+        System.out.println("Введите два целых числа через пробел: ");
         String inputLine = scanner.nextLine();        // Считываем одну строку из ввода и сохраняем в inputLine;
 
         /* \s — в регулярных выражениях означает любой пробельный символ (space, tab, newline, carriage return, form feed и др.).
@@ -48,25 +56,30 @@ public class Solution008 {
     }
 
     /**
-     * Функция, принимающая два числа. Если пользователь вводит некорректные значения, просит переввести их;
+     * Функция, принимающая два числа. Если пользователь вводит некорректные значения, просит ввести их заново;
      * @param scanner
      * @return
      */
     public static int[] readTwoIntsInteractive(Scanner scanner) {
-        while (true) { // будет работать пока его что-то не прервет;
+        System.out.println("Введите два целых числа: ");
+        while (true) { // будет работать пока не получит верные значения;
             String line = scanner.nextLine();
-            String trimmed = line.trim();
-            if (trimmed.isEmpty()) {
-                System.out.println("Введите два целых числа:");
+            String trimmed = line.trim(); // Удалим все пробелы;
+            if (trimmed.isEmpty()) { // Проверим чтобы пользователь что-то ввел;
+                System.out.println("Введите два целых числа: ");
                 continue;
             }
-            String[] vals = trimmed.split("\\s+");
+            String[] vals = trimmed.split("\\s+"); // Удалим все пробелы;
             if (vals.length < 2) {
-                System.out.println("Нужно как минимум два числа в одной строке. Попробуйте снова:");
+                System.out.println("Нужно как минимум два числа в одной строке. Попробуйте снова: ");
+                continue;
+            }
+            if (vals.length >= 3) {
+                System.out.println("Не вводите более двух целых чисел. Попробуйте снова: ");
                 continue;
             }
             try {
-                int a = Integer.parseInt(vals[0]);
+                int a = Integer.parseInt(vals[0]); // Переведем полученные данные в целые числа;
                 int b = Integer.parseInt(vals[1]);
                 return new int[]{a, b};
             } catch (NumberFormatException e) {
@@ -74,5 +87,4 @@ public class Solution008 {
             }
         }
     }
-
 }
